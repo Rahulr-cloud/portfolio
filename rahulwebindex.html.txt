@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul | Data Analyst Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        header {
+            background: #1f4e79;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .contact {
+            margin-top: 15px;
+        }
+
+        .contact p {
+            margin: 5px 0;
+        }
+
+        section {
+            background: white;
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #1f4e79;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #1f4e79;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #1f4e79;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            color: #444;
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            background: #1f4e79;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        @media(max-width:768px){
+            header h1{
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Rahul</h1>
+            <p>MBA Graduate | Data Analyst | Business Intelligence Enthusiast</p>
+
+            <div class="contact">
+                <p>📱 Mobile: 1234567891</p>
+                <p>📧 Email: rahul@gmail.com</p>
+                <p>🔗 GitHub: github.com/rahul</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>
+                MBA graduate from SMVITM, Udupi with strong analytical and
+                problem-solving skills. Skilled in Excel, SQL, Power BI,
+                Python, GitHub, and Data Analytics. Passionate about converting
+                raw data into actionable insights that support business growth
+                and strategic decision-making.
+            </p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <h3>Master of Business Administration (MBA)</h3>
+            <p><strong>SMVITM, Udupi</strong></p>
+            <p>
+                Specialized in business management and analytics with focus on
+                data-driven decision-making and business intelligence.
+            </p>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+
+            <div class="skills">
+                <span class="skill">Excel</span>
+                <span class="skill">SQL</span>
+                <span class="skill">Power BI</span>
+                <span class="skill">Python</span>
+                <span class="skill">Data Analytics</span>
+                <span class="skill">GitHub</span>
+                <span class="skill">Data Visualization</span>
+                <span class="skill">Dashboard Development</span>
+                <span class="skill">Business Intelligence</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Core Competencies</h2>
+            <ul>
+                <li>Data Analysis</li>
+                <li>Business Intelligence</li>
+                <li>Dashboard Development</li>
+                <li>Data Visualization</li>
+                <li>Problem Solving</li>
+                <li>Report Generation</li>
+                <li>Decision Support</li>
+                <li>Business Analytics</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Sales Performance Dashboard</h3>
+                <p>
+                    Developed interactive Power BI dashboards to track sales
+                    performance, KPIs, and business trends.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Customer Data Analysis</h3>
+                <p>
+                    Analyzed customer data using SQL and Excel to identify
+                    purchasing patterns and business opportunities.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Python Data Analytics Project</h3>
+                <p>
+                    Performed data cleaning, transformation, and visualization
+                    using Python to generate actionable insights.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Career Objective</h2>
+            <p>
+                Seeking opportunities as a Data Analyst or Business Analyst
+                where I can utilize my analytical, technical, and business
+                skills to contribute to organizational success and continuous
+                growth.
+            </p>
+        </section>
+
+        <section>
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Hindi</li>
+                <li>Telugu</li>
+                <li>Kannada</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Rahul | Data Analyst Portfolio</p>
+    </footer>
+
+</body>
+</html>
